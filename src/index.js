@@ -87,6 +87,7 @@ root.render(
 );
 
 function Header() {
+  console.log("Public URL:", process.env.PUBLIC_URL);
   return (
     <header>
       <h1>welcome to tabletop treasures</h1>
