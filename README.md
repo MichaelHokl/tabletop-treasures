@@ -3,14 +3,6 @@
 A responsive and interactive React application showcasing a curated collection of popular board games.  
 Perfect for demonstrating React fundamentals like props, conditional rendering, event handling, and dynamic styling.
 
----
-
-## Demo
-
-[Live Demo](https://your-live-demo-url.com) <!-- Replace with your deployed app URL -->
-
----
-
 ## Features
 
 - **Dynamic Game List:** Displays 8 board games with details including title, players, price, playtime, and sold-out status.
