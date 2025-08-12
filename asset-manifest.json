@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tabletop-treasures/static/css/main.493fc3a0.css",
-    "main.js": "/tabletop-treasures/static/js/main.41779ffb.js",
+    "main.js": "/tabletop-treasures/static/js/main.c7e8a74b.js",
     "static/media/bg-picture.jpg": "/tabletop-treasures/static/media/bg-picture.70823ba13085b45ef883.jpg",
     "index.html": "/tabletop-treasures/index.html",
     "main.493fc3a0.css.map": "/tabletop-treasures/static/css/main.493fc3a0.css.map",
-    "main.41779ffb.js.map": "/tabletop-treasures/static/js/main.41779ffb.js.map"
+    "main.c7e8a74b.js.map": "/tabletop-treasures/static/js/main.c7e8a74b.js.map"
   },
   "entrypoints": [
     "static/css/main.493fc3a0.css",
-    "static/js/main.41779ffb.js"
+    "static/js/main.c7e8a74b.js"
   ]
 }
