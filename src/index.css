@@ -5,7 +5,7 @@
 }
 
 #root {
-  background: url(%PUBLIC_URL%/images/bg-picture.jpg);
+  background: url(/public/images/bg-picture.jpg);
   background-position: center;
   padding: 3rem;
   min-height: 100vh;
