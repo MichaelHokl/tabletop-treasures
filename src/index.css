@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background: url(/public/images/bg-picture.jpg);
+  background-position: center;
+  padding: 4rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  text-align: left;
+  text-decoration: underline;
+  margin-left: 1rem;
+}
+p {
+  font-family: "Indie Flower";
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.gamelist {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.game {
+  box-shadow: 0 0 4px 2px black;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.game:hover {
+  transform: scale(1.02);
+}
+
+.game.sold-out {
+  color: #888;
+}
+
+.game.sold-out img {
+  filter: grayscale();
+  opacity: 0.8;
+}
+
+.game img {
+  width: 180px;
+  border-radius: 5px;
+}
+
+.game-detail-container {
+  background-color: #d6c7a1;
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.details {
+  margin-left: 1rem;
+}
+
+footer p {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-top: 30px;
+  text-align: center;
+}
