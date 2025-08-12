@@ -120,7 +120,9 @@ function Game({ gameObj }) {
   function alerting() {
     gameObj.soldOut
       ? alert("This Game Is Sold Out!")
-      : alert("Now you would be redirected to the product page!");
+      : alert(
+          "Now you would be redirected to the product page! But that is a project for another day"
+        );
   }
 
   return (
